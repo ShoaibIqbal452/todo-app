@@ -55,13 +55,14 @@ Before you begin, ensure you have the following installed:
 
 ### Development
 
-For development purposes, the docker-compose.yml file is set to mount the project directory:
+For development purposes, the `docker-compose.yml` file is set to mount the project directory:
 
-`
+```
 volumes:
   - .:/usr/src/app
   - /usr/src/app/node_modules
-`
+```
+
 This setup allows you to make changes to your files locally and have them reflected in the Docker container without restarting the container.
 
 ### Running Tests
