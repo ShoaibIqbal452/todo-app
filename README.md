@@ -39,9 +39,9 @@ Before you begin, ensure you have the following installed:
 
    This command performs the following actions:
 
-   Builds the Node.js application image using the Dockerfile.
-   Pulls the latest MongoDB image from Docker Hub.
-   Starts both the Node.js application and MongoDB containers.
+   - Builds the Node.js application image using the Dockerfile.
+   - Pulls the latest MongoDB image from Docker Hub.
+   - Starts both the Node.js application and MongoDB containers.
 
 3. **Access the Application**
 
